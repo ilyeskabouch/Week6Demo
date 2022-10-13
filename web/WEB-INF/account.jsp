@@ -9,9 +9,17 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Account Information</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <h1>${account.name}</h1>
+    <ul>
+        <li>username: ${account.username}</li>
+        <li>password: ${account.password}</li>
+        <li>email: <a href="mailto:${account.email}">${account.email}</a></li>
+    </ul>
+    <div>
+        
+    </div>
     </body>
 </html>
